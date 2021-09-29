@@ -1,0 +1,48 @@
+.info_page {
+  display: flex;
+  color: white;
+  flex: auto, 1;
+}
+
+.info_sections {
+  display: flex;
+  flex-direction: column;
+}
+.info_sections > a {
+  padding: 40px 100px;
+  text-align: center;
+  font-size: x-large;
+  border-width: 1px;
+  border-color: #8688bb;
+  border-style: ridge;
+  white-space: nowrap;
+  background-color: #232263;
+  cursor: pointer;
+}
+.info_sections > a:hover {
+  background-color: #3634a8;
+}
+
+.image_section {
+  padding-right: 50px;
+  text-align: end;
+  width: 100%;
+  background-size: 110%;
+  background-repeat: no-repeat;
+}
+.image_section > h1 {
+  margin-top: 450px;
+  font-size: 28px;
+}
+.image_section > a {
+  color: white;
+  font-weight: bold;
+  padding: 20px 25px;
+  position: relative;
+}
+
+.image_section > p {
+  font-size: 18px;
+  margin-left: 300px;
+  line-height: 30px;
+}
