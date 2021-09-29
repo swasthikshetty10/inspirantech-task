@@ -1,0 +1,26 @@
+.mission {
+  text-align: center;
+  padding: 100px 400px;
+}
+.mission > h2 {
+  color: rgb(48, 48, 48);
+  margin: 5px;
+}
+.mission > h1 {
+  color: #28276d;
+  font-size: 35px;
+  padding: 0px;
+}
+
+.mission > a {
+  margin-top: 40px;
+  color: white;
+  font-weight: bold;
+  padding: 20px 25px;
+}
+.mission > p {
+  margin-top: 40px;
+  color: gray;
+  font-size: 18px;
+  line-height: 30px;
+}
