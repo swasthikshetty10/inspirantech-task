@@ -25,7 +25,7 @@
 .info > p {
   font-size: 22px;
   color: rgb(224, 224, 224);
-  width: 35rem;
+  max-width: 35rem;
 }
 
 .info > a {
@@ -45,8 +45,44 @@
 .global_leaders > div {
   display: flex;
   justify-content: space-evenly;
+  flex-wrap: wrap;
   padding: 20px;
+  gap: 20px;
 }
 .global_leaders > div > img {
   height: 120px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .info {
+    padding-top: 8rem;
+    padding-left: 1rem;
+    color: white;
+
+    font-size: 15px;
+  }
+  .info h1 {
+    font-size: 45px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .info {
+    padding-top: 4rem;
+    padding-left: 1rem;
+    color: white;
+
+    font-size: 15px;
+  }
+  .info h1 {
+    font-size: 45px;
+  }
+  .global_leaders {
+    margin: 10px;
+    padding: 20px;
+  }
+  .global_leaders > div {
+    padding: 5px;
+    gap: 10px;
+  }
 }

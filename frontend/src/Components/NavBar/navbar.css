@@ -71,8 +71,20 @@
 .side_nav > a:hover {
   background-color: rgb(128, 128, 128, 0.2);
 }
+@media only screen and (max-width: 1312px) {
+  .nav {
+    justify-content: space-between;
+  }
+  .btn {
+    padding: 20px 15px;
+  }
+  .about {
+    display: flex;
+    width: 30vw;
+  }
+}
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1000px) {
   .nav {
     justify-content: space-between;
   }

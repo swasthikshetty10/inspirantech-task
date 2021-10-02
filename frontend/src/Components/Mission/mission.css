@@ -1,6 +1,11 @@
+.center {
+  display: flex;
+  justify-content: center;
+}
 .mission {
   text-align: center;
-  padding: 100px 400px;
+  padding: 100px 0px;
+  max-width: 888px;
 }
 .mission > h2 {
   color: rgb(48, 48, 48);

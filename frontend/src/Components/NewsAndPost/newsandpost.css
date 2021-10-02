@@ -1,0 +1,70 @@
+.newsandpost {
+  width: 100%;
+  justify-content: center;
+}
+.newsandpost > div > div > img {
+  height: 285px;
+  width: 450px;
+}
+
+.newsandpost > div {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 100px;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.newsandpost > div > div {
+  border-bottom: 4px solid #232263;
+}
+.newsandpost > h1 {
+  color: red;
+  margin: 60px 85px;
+  margin-top: 0px;
+  font-size: 35px;
+}
+.newsandpost > p {
+  color: rgb(53, 53, 53);
+  font-size: 18px;
+  font-weight: 700;
+  margin: 60px 85px;
+  margin-bottom: 10px;
+}
+.newsandpost > div > div > p {
+  color: rgb(53, 53, 53);
+  font-size: 18px;
+  max-width: 300px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.newsandpost h3 {
+  color: rgb(53, 53, 53);
+  font-size: 15px;
+  font-weight: 700;
+}
+.enroll {
+  width: 100%;
+}
+@media only screen and (max-width: 1000px) {
+  .newsandpost > p {
+    color: rgb(53, 53, 53);
+    font-size: 18px;
+    font-weight: 700;
+    margin: 20px;
+    margin-bottom: 10px;
+  }
+  .newsandpost > h1 {
+    color: red;
+    margin: 0px;
+    padding-bottom: 30px;
+    font-size: 35px;
+  }
+  .newsandpost {
+    margin: 0px;
+    text-align: center;
+  }
+  .newsandpost > div > div > img {
+    height: 150px;
+    width: 100%;
+  }
+}

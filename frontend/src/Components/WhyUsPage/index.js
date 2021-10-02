@@ -5,8 +5,9 @@ import './whyus.css'
 function WhyUS() {
     return (
         <div className="why_us">
-
+            <h2 className="mobile-title"><span>Why</span> <span className="style_text2">Us</span>ㅤ</h2>
             <div>
+
                 <h2>ㅤ</h2>
                 <img src={idea_image} />
                 <h3>A Global Network</h3>

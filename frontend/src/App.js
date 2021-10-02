@@ -4,6 +4,7 @@ import LandingPage from "./Components/LandingPage";
 import Mission from "./Components/Mission";
 import InfoPage from "./Components/InfoPage";
 import WhyUS from "./Components/WhyUsPage";
+import NewsAndPost from "./Components/NewsAndPost";
 function App() {
   return (
     <div className="App">
@@ -12,6 +13,7 @@ function App() {
       <Mission />
       <InfoPage />
       <WhyUS />
+      <NewsAndPost />
     </div>
   );
 }
