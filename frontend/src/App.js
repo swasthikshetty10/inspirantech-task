@@ -5,6 +5,7 @@ import Mission from "./Components/Mission";
 import InfoPage from "./Components/InfoPage";
 import WhyUS from "./Components/WhyUsPage";
 import NewsAndPost from "./Components/NewsAndPost";
+import Footer from "./Components/Footer";
 function App() {
   return (
     <div className="App">
@@ -14,6 +15,7 @@ function App() {
       <InfoPage />
       <WhyUS />
       <NewsAndPost />
+      <Footer />
     </div>
   );
 }

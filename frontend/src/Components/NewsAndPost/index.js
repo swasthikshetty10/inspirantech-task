@@ -28,9 +28,6 @@ function NewsAndPost() {
                     <p>Project Description 2 lines Project description 2 line</p>
                 </div>
             </div>
-            <div className="enroll">
-
-            </div>
         </div>
     )
 }
