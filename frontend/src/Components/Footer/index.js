@@ -19,7 +19,6 @@ function Footer() {
                 <div className="footer-main">
                     <div className="socials">
                         <div></div>
-
                         <FaFacebookF />
                         <FaInstagram />
                         <FaLinkedinIn />
