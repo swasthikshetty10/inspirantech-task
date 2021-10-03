@@ -6,6 +6,7 @@ import InfoPage from "./Components/InfoPage";
 import WhyUS from "./Components/WhyUsPage";
 import NewsAndPost from "./Components/NewsAndPost";
 import Footer from "./Components/Footer";
+import Traning from "./Components/Traning";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 function App() {
   return (
@@ -37,7 +38,7 @@ function Home() {
 function Trainings() {
   return <>
     <NavBar />
-    <LandingPage />
+    <Traning />
     <WhyUS trainings={true} />
     <Footer trainings={true} />
   </>
