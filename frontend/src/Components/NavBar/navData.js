@@ -13,7 +13,7 @@ const navigations = [
     },
     {
         name: "TRAININGS",
-        href: "#"
+        href: "/trainings"
     },
     {
         name: "CONTACTS",

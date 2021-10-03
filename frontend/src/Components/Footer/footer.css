@@ -10,15 +10,10 @@
   color: aliceblue;
   font-weight: bold;
 }
-.project-enroll > h1 {
+.project-enroll h1 {
   font-size: 35px;
 }
-@media only screen and (max-width: 1000px) {
-  .project-enroll {
-    padding: 20px;
-    white-space: nowrap;
-  }
-}
+
 .contact-us {
   color: rgb(58, 58, 58);
 }
@@ -77,6 +72,16 @@ footer h1 {
   width: 250px;
   font-size: large;
 }
+.project-enroll form > input {
+  width: 350px;
+}
+.project-enroll p {
+  margin-top: 10px;
+  margin-bottom: 0px;
+  font-size: large;
+  max-width: 450px;
+  white-space: pre-wrap;
+}
 .footer-main p {
   font-size: larger;
   white-space: unset;
@@ -99,6 +104,16 @@ footer h1 {
 }
 
 @media only screen and (max-width: 1000px) {
+  .project-enroll {
+    padding: 20px;
+    white-space: nowrap;
+  }
+  .project-enroll h1 {
+    font-size: x-large;
+  }
+  .project-enroll p {
+    font-size: medium;
+  }
   footer {
     display: block;
     letter-spacing: 1px;
@@ -129,6 +144,12 @@ footer h1 {
     width: 100%;
     font-size: large;
   }
+  .project-enroll form > input {
+    padding: 10px;
+    width: 100%;
+    font-size: large;
+  }
+
   .form > a {
     display: inline-block;
     padding: 10px;

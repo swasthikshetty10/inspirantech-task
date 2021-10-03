@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import './navbar.css'
 import navigations from './navData'
 import { FiSearch, FiMenu } from 'react-icons/fi'
+import { Link } from 'react-router-dom'
 function NavBar() {
     const [sidebar, setSidebar] = useState(false);
     return (
@@ -16,7 +17,7 @@ function NavBar() {
                 <div className="nav_data">
                     {
                         navigations.map((ele) => {
-                            return <a className="btn" href={ele.map}>{ele.name}</a>
+                            return <Link to={ele.href}><a className="btn" >{ele.name}</a></Link>
                         })
                     }
                 </div>

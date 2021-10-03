@@ -1,15 +1,25 @@
 import React from 'react'
 import './footer.css'
 import { FaFacebookF, FaInstagram, FaLinkedinIn, FaTwitter, FaYoutube } from 'react-icons/fa'
-function Footer() {
+function Footer({ trainings }) {
     return (
         <section>
-            <div className="project-enroll">
-                <h1>Have a project ?</h1>
-                <a className="btn btn-red">ENQUIRE FORM</a>
+            {trainings ?
+                <div className="project-enroll">
+                    <div>
+                        <h1>Have a project ?</h1>
+                        <p>Verify your and your friends certification status and get validated before you hire and apply</p>
+                    </div>
+                    <form className="form form-full">
+                        <input className="w-full" name="email" placeholder="ENTER EMAIL ID" type="text" />
+                        <a type="submit" className="btn btn-red">VERIFY</a>
+                    </form>
+                </div>
 
-
-            </div>
+                : <div className="project-enroll">
+                    <h1>Have a project ?</h1>
+                    <a className="btn btn-red">ENQUIRE FORM</a>
+                </div>}
             <footer>
                 <div className="contact-us">
                     <h1>CONTACT US</h1>
@@ -44,7 +54,6 @@ function Footer() {
                         <div>
                             <p>
                                 Subscribe to receive our daily updates/ projects/ newsletters
-
                             </p>
                             <form className="form">
                                 <input name="email" placeholder="ENTER EMAIL" type="text" />

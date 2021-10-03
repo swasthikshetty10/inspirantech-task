@@ -2,7 +2,12 @@
   background: linear-gradient(45deg, #a9dcf4, #7390c7);
   width: 100%;
   display: flex;
+  color: #1b205f;
   justify-content: center;
+}
+.add_value {
+  background: #1b205f;
+  color: #ffffff;
 }
 .why_us > div > img {
   height: 200px;
@@ -12,24 +17,29 @@
   display: none;
   text-align: center;
   font-size: 38px;
-  color: #1b205f;
 }
 .why_us > div {
   padding: 70px 50px;
   border-width: 1px;
   border-color: #cecece;
   border-style: ridge;
+  text-align: center;
+}
+.add_value > div {
+  padding: 70px 50px;
+  border-width: 1px;
+  border-color: #010964;
+  border-top: 0px;
+  border-style: ridge;
 }
 .why_us > div > h2 {
   text-align: center;
   font-size: 38px;
-  color: #1b205f;
 }
 .why_us > div > h3 {
   text-align: center;
-  color: #1b205f;
-  font-size: large;
-  font-weight: 400;
+  font-size: larger;
+  font-weight: 500;
 }
 
 .style_text2 {

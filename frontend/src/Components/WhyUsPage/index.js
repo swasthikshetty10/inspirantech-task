@@ -2,10 +2,10 @@ import React from 'react'
 import idea_image from '../../Assets/images/idea.png'
 import idea_image2 from '../../Assets/images/idea2.png'
 import './whyus.css'
-function WhyUS() {
+function WhyUS({ trainings }) {
     return (
-        <div className="why_us">
-            <h2 className="mobile-title"><span>Why</span> <span className="style_text2">Us</span>ㅤ</h2>
+        <div className={trainings ? "why_us add_value" : "why_us"}>
+            <h2 className="mobile-title"><span>{trainings ? "Our Added" : "Why"}</span> <span className="style_text2">{trainings ? "Value" : "Us"}</span></h2>
             <div>
 
                 <h2>ㅤ</h2>
@@ -14,7 +14,7 @@ function WhyUS() {
 
             </div>
             <div>
-                <h2><span>Why</span> <span className="style_text2">Us</span></h2>
+                <h2><span>{trainings ? "Our Added" : "Why"}</span> <span className="style_text2">{trainings ? "Value" : "Us"}</span></h2>
                 <img src={idea_image} />
                 <h3>Commitment</h3>
 
