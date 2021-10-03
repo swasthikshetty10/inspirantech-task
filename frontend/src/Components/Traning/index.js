@@ -1,5 +1,6 @@
 import React from 'react'
 import './training.css'
+import Courses from './Courses'
 import { RiArrowRightSFill } from "react-icons/ri"
 import { FiSearch } from 'react-icons/fi'
 import { IoIosArrowUp, IoIosArrowDown } from 'react-icons/io'
@@ -21,14 +22,12 @@ function Traning() {
                         <div className="training-dropdown">
                             <a>Industry <IoIosArrowDown /></a>
                             <a>Status <IoIosArrowDown /></a>
-                            <a>Date <IoIosArrowDown /> <IoIosArrowUp /></a>
+                            <a>Date <IoIosArrowDown /><IoIosArrowUp /></a>
                         </div>
                     </div>
                 </div>
             </div>
-            <div>
-
-            </div>
+            <div className="courses-container"><Courses /></div>
         </section>
     )
 }

@@ -7,6 +7,7 @@
 .training-details {
   padding: 100px;
   padding-top: 50px;
+  padding-bottom: 0px;
 }
 .training-details a {
   font-weight: 600;
@@ -84,7 +85,9 @@
 .training-dropdown a:hover {
   color: #222363;
 }
-
+.courses-container {
+  padding: 50px;
+}
 @media only screen and (max-width: 600px) {
   .training-details {
     padding: 15px;
@@ -128,5 +131,8 @@
   }
   .training-dropdown a {
     font-size: large;
+  }
+  .courses-container {
+    padding: 20px;
   }
 }

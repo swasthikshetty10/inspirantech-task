@@ -1,0 +1,62 @@
+.grid-wrapper {
+  --auto-grid-min-size: 450px;
+  display: grid;
+  grid-gap: 2rem;
+  grid-template-columns: repeat(
+    auto-fill,
+    minmax(var(--auto-grid-min-size), 1fr)
+  );
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+.courses {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  color: rgb(53, 53, 53);
+}
+.course-card {
+  cursor: pointer;
+  border: 2px solid rgba(0, 0, 0, 0.2);
+  padding-bottom: 10px;
+}
+.industry-status {
+  padding-bottom: 10px;
+  display: flex;
+  font-weight: 600;
+  justify-content: space-between;
+}
+.course-card img {
+  width: 100%;
+  height: auto;
+}
+
+.course-card > div {
+  padding: 0px 20px;
+}
+.course-card h4 {
+  margin: 0px;
+}
+.course-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.course-details p {
+  max-width: 300px;
+}
+.btn-gray {
+  color: rgb(43, 43, 117);
+  padding: 20px;
+  white-space: nowrap;
+  font-weight: 500;
+  background-color: rgb(232, 231, 240);
+}
+@media only screen and (max-width: 600px) {
+  .grid-wrapper {
+    --auto-grid-min-size: unset;
+  }
+}

@@ -48,6 +48,8 @@ footer h1 {
 .footer-fields {
   display: flex;
   justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 30px;
 }
 .footer-fields > div {
   display: flex;
@@ -132,9 +134,8 @@ footer h1 {
     background: #202060;
   }
   .footer-fields {
-    flex-direction: column;
-
-    gap: 15px;
+    gap: 10px;
+    font-size: small;
   }
   .socials {
     gap: 5px;
