@@ -13,9 +13,7 @@
 }
 
 .courses {
-  display: flex;
   width: 100%;
-  justify-content: center;
   color: rgb(53, 53, 53);
 }
 .course-card {
@@ -43,10 +41,12 @@
 .course-details {
   display: flex;
   justify-content: space-between;
+  padding-top: 10px;
   align-items: center;
 }
 .course-details p {
   max-width: 300px;
+  font-weight: 600;
 }
 .btn-gray {
   color: rgb(43, 43, 117);
