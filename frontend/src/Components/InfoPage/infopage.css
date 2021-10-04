@@ -76,7 +76,7 @@
   .info_sections > a {
     padding: 20px;
     text-align: center;
-    font-size: x-large;
+    font-size: larger;
     border-width: 1px;
     border-color: #8688bb;
     border-style: ridge;
@@ -88,6 +88,12 @@
     background-position: right;
     background: rgba(68, 68, 68, 0.5);
     background-blend-mode: overlay;
+  }
+  .image_section > div > h1 {
+    font-size: xx-large;
+  }
+  .image_section > div > p {
+    font-size: medium;
   }
 }
 

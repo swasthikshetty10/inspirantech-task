@@ -49,7 +49,12 @@
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
+  letter-spacing: normal;
 }
+.search-field a {
+  letter-spacing: normal;
+}
+
 .border-bottom {
   display: flex;
   gap: 10px;

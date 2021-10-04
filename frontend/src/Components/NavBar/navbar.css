@@ -59,7 +59,8 @@
   flex-direction: column;
   z-index: 5;
   position: fixed;
-  background-color: #1f1e80;
+  background-color: rgba(7, 12, 87, 0.7);
+  backdrop-filter: blur(20px);
   transition: 03s;
 }
 .side_nav > a {
@@ -75,6 +76,7 @@
 .side_nav > a:hover {
   background-color: rgb(128, 128, 128, 0.2);
 }
+
 @media only screen and (max-width: 1312px) {
   .side_nav {
     display: flex;

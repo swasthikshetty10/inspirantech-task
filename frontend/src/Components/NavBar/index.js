@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import './navbar.css'
 import navigations from './navData'
-import { FiSearch, FiMenu } from 'react-icons/fi'
+import { FiSearch, FiMenu, FiX } from 'react-icons/fi'
 import { Link } from 'react-router-dom'
 function NavBar() {
     const [sidebar, setSidebar] = useState(false);
@@ -23,7 +23,7 @@ function NavBar() {
                 </div>
                 <div className="buttons">
                     <a className="search"><FiSearch /></a>
-                    <a className="menu_button" onClick={() => { setSidebar(!sidebar) }}><FiMenu /></a>
+                    <a className="menu_button" onClick={() => { setSidebar(!sidebar) }}>{sidebar ? <FiX /> : <FiMenu />}</a>
                 </div>
             </section>
             {sidebar && <SideBar data={navigations} />}

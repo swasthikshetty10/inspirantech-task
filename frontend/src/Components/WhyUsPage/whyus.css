@@ -60,4 +60,8 @@
   .mobile-title {
     display: block;
   }
+  .why_us > div,
+  .add_value > div {
+    padding: 40px;
+  }
 }

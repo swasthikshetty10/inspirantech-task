@@ -7,7 +7,7 @@ import WhyUS from "./Components/WhyUsPage";
 import NewsAndPost from "./Components/NewsAndPost";
 import Footer from "./Components/Footer";
 import Traning from "./Components/Traning";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 function App() {
   return (
     <div className="App">
@@ -16,6 +16,10 @@ function App() {
           <Route path="/trainings">
             <Trainings />
           </Route>
+          <Route exact path="/admin" component={() => {
+            window.location.href = 'https://inspirante.herokuapp.com/admin/';
+            return null;
+          }} />
           <Route path="/">
             <Home />
           </Route>
