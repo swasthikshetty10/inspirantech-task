@@ -1,5 +1,4 @@
 import './courses.css'
-import background from '../../Assets/images/engineers.jpg'
 import { useEffect, useState } from "react"
 import axios from "axios"
 
@@ -18,7 +17,26 @@ function Courses() {
 
     return (
         <section className="courses" >
-            {loading ? <div>loading</div> :
+
+
+            {loading ? <>
+                <div className="Loading"><h1 >Loading</h1>
+                    <div class="spinner">
+                        <div class="bounce1"></div>
+                        <div class="bounce2"></div>
+                        <div class="bounce3"></div>
+                    </div>
+                </div>
+                <div className="grid-wrapper">
+                    {[1, 1, 1].map(() => <div class="card is-loading grid-card">
+                        <div class="loading-image"></div>
+                        <div class="content">
+                            <h2 className="load-h2"></h2>
+                            <p className="load-p"></p>
+                        </div>
+                    </div>)}
+                </div>
+            </> :
                 <div className="grid-wrapper">
                     {courses.map((course) =>
                         <Card title={course.course_name} price={course.price} image={course.thumbnail_url} />
