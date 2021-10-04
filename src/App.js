@@ -16,7 +16,7 @@ function App() {
           <Route path="/trainings">
             <Trainings />
           </Route>
-          <Route exact path="/admin" component={() => {
+          <Route path="/admin" component={() => {
             window.location.href = 'https://inspirante.herokuapp.com/admin/';
             return null;
           }} />
