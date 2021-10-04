@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.0ac61754.chunk.css",
+    "main.js": "/static/js/main.6d6b00aa.chunk.js",
+    "main.js.map": "/static/js/main.6d6b00aa.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.f5cfbed7.js",
+    "runtime-main.js.map": "/static/js/runtime-main.f5cfbed7.js.map",
+    "static/js/2.65135ea1.chunk.js": "/static/js/2.65135ea1.chunk.js",
+    "static/js/2.65135ea1.chunk.js.map": "/static/js/2.65135ea1.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.0ac61754.chunk.css.map": "/static/css/main.0ac61754.chunk.css.map",
+    "static/js/2.65135ea1.chunk.js.LICENSE.txt": "/static/js/2.65135ea1.chunk.js.LICENSE.txt",
+    "static/media/bharat_petroleum.c32e70d6.png": "/static/media/bharat_petroleum.c32e70d6.png",
+    "static/media/engineers.ed2baa63.jpg": "/static/media/engineers.ed2baa63.jpg",
+    "static/media/gail.fc5a4a7b.png": "/static/media/gail.fc5a4a7b.png",
+    "static/media/hindustan_petroleum.1c407054.png": "/static/media/hindustan_petroleum.1c407054.png",
+    "static/media/idea.a2a2c9d9.png": "/static/media/idea.a2a2c9d9.png",
+    "static/media/idea2.ce01ba94.png": "/static/media/idea2.ce01ba94.png",
+    "static/media/indian_oil.f236e1ae.png": "/static/media/indian_oil.f236e1ae.png",
+    "static/media/media2.d9660cfa.png": "/static/media/media2.d9660cfa.png",
+    "static/media/news1.1d7f599d.png": "/static/media/news1.1d7f599d.png",
+    "static/media/wirefram_bg.8ca1a593.jpg": "/static/media/wirefram_bg.8ca1a593.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f5cfbed7.js",
+    "static/js/2.65135ea1.chunk.js",
+    "static/css/main.0ac61754.chunk.css",
+    "static/js/main.6d6b00aa.chunk.js"
+  ]
+}
