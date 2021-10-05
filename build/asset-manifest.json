@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/static/css/main.0ac61754.chunk.css",
-    "main.js": "/static/js/main.63f015bd.chunk.js",
-    "main.js.map": "/static/js/main.63f015bd.chunk.js.map",
+    "main.js": "/static/js/main.8b91e38f.chunk.js",
+    "main.js.map": "/static/js/main.8b91e38f.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.f5cfbed7.js",
     "runtime-main.js.map": "/static/js/runtime-main.f5cfbed7.js.map",
-    "static/js/2.65135ea1.chunk.js": "/static/js/2.65135ea1.chunk.js",
-    "static/js/2.65135ea1.chunk.js.map": "/static/js/2.65135ea1.chunk.js.map",
+    "static/js/2.4685df4e.chunk.js": "/static/js/2.4685df4e.chunk.js",
+    "static/js/2.4685df4e.chunk.js.map": "/static/js/2.4685df4e.chunk.js.map",
     "index.html": "/index.html",
     "static/css/main.0ac61754.chunk.css.map": "/static/css/main.0ac61754.chunk.css.map",
-    "static/js/2.65135ea1.chunk.js.LICENSE.txt": "/static/js/2.65135ea1.chunk.js.LICENSE.txt",
+    "static/js/2.4685df4e.chunk.js.LICENSE.txt": "/static/js/2.4685df4e.chunk.js.LICENSE.txt",
     "static/media/bharat_petroleum.c32e70d6.png": "/static/media/bharat_petroleum.c32e70d6.png",
     "static/media/engineers.ed2baa63.jpg": "/static/media/engineers.ed2baa63.jpg",
     "static/media/gail.fc5a4a7b.png": "/static/media/gail.fc5a4a7b.png",
@@ -23,8 +23,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.f5cfbed7.js",
-    "static/js/2.65135ea1.chunk.js",
+    "static/js/2.4685df4e.chunk.js",
     "static/css/main.0ac61754.chunk.css",
-    "static/js/main.63f015bd.chunk.js"
+    "static/js/main.8b91e38f.chunk.js"
   ]
 }

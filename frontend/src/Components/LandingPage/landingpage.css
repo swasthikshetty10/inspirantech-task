@@ -1,0 +1,97 @@
+.landing_page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: rgb(40, 39, 109);
+  background-repeat: space;
+  background-blend-mode: multiply;
+}
+
+.info {
+  padding-top: 12rem;
+  padding-left: 12rem;
+  color: white;
+
+  font-size: 35px;
+}
+
+.style_text {
+  font-size: 80px;
+  color: transparent;
+  -webkit-text-stroke-width: 1.5px;
+  -webkit-text-stroke-color: white;
+}
+
+.info > p {
+  font-size: 22px;
+  color: rgb(224, 224, 224);
+  max-width: 35rem;
+}
+
+.info > a {
+  margin-top: 25px;
+  padding: 20px 25px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.global_leaders {
+  padding: 0px 60px;
+  background-color: white;
+  font-size: 20px;
+  margin: 90px;
+  font-weight: 400;
+}
+.global_leaders > div {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding: 20px;
+  gap: 20px;
+}
+.global_leaders > div > img {
+  height: 120px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .info {
+    padding-top: 8rem;
+    padding-left: 1rem;
+    color: white;
+
+    font-size: 15px;
+  }
+  .info h1 {
+    font-size: 45px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .info {
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+    padding-left: 1rem;
+    color: white;
+    font-size: 15px;
+  }
+  .global_leaders {
+    margin: 10px;
+    padding: 20px;
+  }
+  .global_leaders > div {
+    justify-content: space-between;
+    padding: 5px;
+    gap: 10px;
+  }
+  .info > p {
+    font-size: large;
+    margin-bottom: 0px;
+  }
+  .info > h1 {
+    font-size: 35px;
+    margin-bottom: 0px;
+  }
+  .style_text {
+    -webkit-text-stroke-width: 0.5px;
+  }
+}

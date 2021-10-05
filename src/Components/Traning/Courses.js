@@ -9,10 +9,14 @@ function Courses() {
     const [loading, setLoading] = useState(true)
     useEffect(() => {
         setLoading(true)
-        axios.get(baseURL).then((response) => {
-            setCourse(response.data)
-        })
-        setLoading(false);
+        const Fetch = async () => {
+            await axios.get(baseURL).then((response) => {
+                setCourse(response.data)
+            })
+            setLoading(false);
+        }
+        Fetch();
+
     }, [])
 
     return (
